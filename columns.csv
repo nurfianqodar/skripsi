@@ -2,7 +2,7 @@ nama_kolom,keterangan
 tanggal,Tanggal pengamatan
 p,Perlakuan
 u,Ulangan
-diameter_1,Diameter isolat yang diukur lurus vertikal dengan arah huruf pada label
-diameter_2,Diameter isolat yang diukur 45 derajat ke kanan dari diameter_1
-diameter_3,Diameter isolat yang diukur 45 derajat ke kanan dari diameter_2
-diameter_4,Diameter isolat yang diukur 45 derajat ke kanan dari diameter_3
+diameter_1,Diameter isolat (mm) yang diukur lurus vertikal dengan arah huruf pada label
+diameter_2,Diameter isolat (mm) yang diukur 45 derajat ke kanan dari diameter_1
+diameter_3,Diameter isolat (mm) yang diukur 45 derajat ke kanan dari diameter_2
+diameter_4,Diameter isolat (mm) yang diukur 45 derajat ke kanan dari diameter_3
