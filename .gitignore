@@ -1,0 +1,7 @@
+venv/
+.~lock*
+
+*.pyc
+/pycache
+
+.vscode
