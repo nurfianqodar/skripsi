@@ -1,3 +1,3 @@
-[Data Pengamatan]()
-[Keterangan Kolom]()
-[Keterangan Perlakuan]()
+- [Data Pengamatan](https://raw.githubusercontent.com/nurfianqodar/skripsi/refs/heads/main/pengamatan.csv)
+- [Keterangan Kolom](https://raw.githubusercontent.com/nurfianqodar/skripsi/refs/heads/main/columns.csv)
+- [Keterangan Perlakuan](https://raw.githubusercontent.com/nurfianqodar/skripsi/refs/heads/main/legends.csv)
