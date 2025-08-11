@@ -1,0 +1,40 @@
+; ions.mdp - digunakan sebagai input ke grompp untuk menghasilkan ions.tpr
+; Parameter yang menjelaskan apa yang harus dilakukan, kapan berhenti, dan apa yang disimpan
+
+
+; Algoritma (steep = penurunan gradien tercepat untuk minimisasi)
+integrator  = steep         
+
+; Hentikan minimisasi saat gaya maksimum < 1000.0 kJ/mol/nm
+emtol       = 1000.0
+
+; Ukuran langkah minimisasi
+emstep      = 0.01          
+
+; Maksimum jumlah langkah minimisasi yang dilakukan
+nsteps      = 50000         
+
+
+
+; Parameter untuk menentukan tetangga setiap atom dan cara menghitung interaksi
+
+; Frekuensi pembaruan daftar tetangga dan gaya jangkauan panjang
+nstlist         = 1         
+
+; Metode pencarian tetangga dengan buffered neighbor searching
+cutoff-scheme	= Verlet    
+
+; Metode penentuan daftar tetangga (simple, grid)
+ns_type         = grid      
+
+; Penanganan interaksi elektrostatik jangkauan panjang
+coulombtype     = cutoff    
+
+; Batas jarak pemotongan elektrostatik (nm)
+rcoulomb        = 1.0       
+
+; Batas jarak pemotongan gaya Van der Waals (nm)
+rvdw            = 1.0       
+
+; Kondisi batas periodik di ketiga dimensi (x, y, z)
+pbc             = xyz       
