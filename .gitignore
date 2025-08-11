@@ -5,3 +5,5 @@ venv/
 /pycache
 
 .vscode
+
+build/
